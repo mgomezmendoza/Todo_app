@@ -4,4 +4,5 @@
 	'author': 'Miguel Gomez Mendoza',
 	'depends': ['base'],
 	'application': True,
+	'data': ['views/todo_menu.xml'],
 }

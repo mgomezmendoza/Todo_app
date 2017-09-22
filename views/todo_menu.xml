@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<odoo>
+	<!-- Action para mostrar lista de tareas -->
+	<act_windows id="action_todo_task"
+		name="Tareas pendientes"
+		res_model="todo.task"
+		view_model="tree,form" 	/>	
+	<!--Menu item para mostrar tareas pendientes-->
+	<menuitem id="menu_todo_task"
+		name="Tareas"
+		action="action_todo_task" />
+</odoo>
+
